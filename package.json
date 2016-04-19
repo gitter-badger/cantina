@@ -1,0 +1,24 @@
+{
+  "name": "tapas-cantina",
+  "version": "0.0.0",
+  "description": "The CMS based on the Tapas framework!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapas-cantina/cantina.git"
+  },
+  "keywords": [
+    "cms",
+    "tapas",
+    "cantina"
+  ],
+  "author": "Andreas Sander <andreas.sander@hotmail.de>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tapas-cantina/cantina/issues"
+  },
+  "homepage": "https://github.com/tapas-cantina/cantina#readme"
+}
