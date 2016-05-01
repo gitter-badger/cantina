@@ -11,16 +11,13 @@
 
     <!-- Needed 3rd party libs-->
     <script src="node_modules/systemjs/dist/system.js"></script>
-    <script src="node_modules/typescript/lib/typescript.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.min.js"></script>
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
 
     <!-- Configure SystemJS // todo: only for development -> packaging like webpack needed -->
     <script>
       System.config({
-        transpiler: 'typescript',
-        typescriptOptions: { emitDecoratorMetadata: true },
-        packages: {'app': {defaultExtension: 'ts'}}
+        packages: {'app': {defaultExtension: 'js'}}
       });
       System.import('app/main')
             .then(null, console.error.bind(console));
